@@ -1,0 +1,42 @@
+.header-container {
+  padding: 10px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-logout {
+  color: #dc3545;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header-logout:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  font-size: 14px;
+  color: #333;
+}
+
+.header-user {
+  font-weight: 600;
+}

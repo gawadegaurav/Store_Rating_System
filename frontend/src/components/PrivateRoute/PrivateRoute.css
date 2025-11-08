@@ -1,0 +1,16 @@
+/* PrivateRoute.css */
+
+.private-route-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #f9fafb; /* light neutral background */
+  padding: 16px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.private-route-container:hover {
+  background-color: #f3f4f6; /* slightly darker on hover */
+}
